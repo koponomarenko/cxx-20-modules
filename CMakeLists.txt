@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(cxx_20_test)
+project(cxx-20-modules)
 
 #set(CMAKE_CXX_STANDARD 20)
 
@@ -22,7 +22,7 @@ function (prepare_for_module TGT)
 endfunction()
 
 # Program name and sources
-set (TARGET prog)
+set (TARGET cxx-20-modules)
 set (SOURCES main.cpp)
 set (MODULES func.cxx func_impl.cxx)
 

@@ -12,6 +12,7 @@
 #   user@password
 #
 # $ ssh user@localhost -p2222
+# pass: password
 #
 
 FROM ubuntu:21.10
