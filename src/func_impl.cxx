@@ -1,9 +1,11 @@
 module;
 
 import <iostream>;
+#include <string>
 
 module mod;
 
 void func() {
-    std::cout << "hello, world, from C++ module!\n";
+    std::string s {"Hello C++ modules!"};
+    std::cout << s << std::endl;
 }
