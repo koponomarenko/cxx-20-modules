@@ -23,8 +23,8 @@ endfunction()
 
 # Program name and sources
 set (TARGET cxx-20-modules)
-set (SOURCES main.cpp)
-set (MODULES func.cxx func_impl.cxx)
+set (SOURCES src/main.cpp)
+set (MODULES src/func.cxx src/func_impl.cxx)
 
 # Setup program modules object library
 set (MODULE_TARGET prog-modules)
